@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider_right">
+        </div>
+
+        <div class="slider">
+            <div class="slide_contents">
+                <div class="slide">
+                    <span>ON-FIARBITION</span>
+                    <span class="slide_01_point">ON-FIARBITION</span>
+                    <span>ON-FIARBITION</span>
+                    <a href=""></a>
+                </div>
+
+                <div class="slide">
+                    <span>EXHIBITION</span>
+                    <span class="slide_02_point">EXHIBITION</span>
+                    <span>EXHIBITION</span>
+                </div>
+
+                <div class="slide">
+                    <span>FAIR & EXPO</span>
+                    <span class="slide_03_point">FAIR & EXPO</span>
+                    <span>FAIR & EXPO</span>
+                </div>
+
+                <div class="slide">
+                    <span>ON-LINE</span>
+                    <span class="slide_04_point">ON-LINE</span>
+                    <span>ON-LINE</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide_btn">
+            <button class="slide_btn1">1</button>
+            <button class="slide_btn2">2</button>
+            <button class="slide_btn3">3</button>
+            <button class="slide_btn4">4</button>
+        </div>
+
+        <div class="slider_left">
+        </div>
+    </div>
+
+    <script>
+
+        document.querySelector('.slide_btn1').addEventListener('click', function () {
+            document.querySelector('.slider').style.transform = 'translate(0vw)';
+        });
+
+        document.querySelector('.slide_btn2').addEventListener('click', function () {
+            document.querySelector('.slider').style.transform = 'translate(-100vw)';
+        });
+
+        document.querySelector('.slide_btn3').addEventListener('click', function () {
+            document.querySelector('.slider').style.transform = 'translate(-200vw)';
+        });
+
+        document.querySelector('.slide_btn4').addEventListener('click', function () {
+            document.querySelector('.slider').style.transform = 'translate(-300vw)';
+        });
+
+
+    </script>
+</body>
+
+</html>
