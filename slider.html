@@ -10,35 +10,58 @@
 </head>
 
 <body>
+    <div class="main">
     <div class="container">
-        <div class="slider_right">
+
+        <div class="slider_left">
+            <div class="prev">
+                <div class="prev_line01"></div>
+                <div class="prev_line02"></div>
+                <div class="prev_text">PREV</div>
+            </div>
         </div>
 
         <div class="slider">
             <div class="slide_contents">
-                <div class="slide">
-                    <span>ON-FIARBITION</span>
-                    <span class="slide_01_point">ON-FIARBITION</span>
-                    <span>ON-FIARBITION</span>
-                    <a href=""></a>
+
+                <!-- 슬라이드01 -->
+                <div class="slide" id="slide-01">
+                    <h1>
+                        ON FAIRBITION<br>
+                        <span class="slide-pointtext-01">ON FAIRBITION</span><br>
+                        ON FAIRBITION<br>
+                    </h1>
+                    <a href="#">스크롤다운</a>
                 </div>
 
-                <div class="slide">
-                    <span>EXHIBITION</span>
-                    <span class="slide_02_point">EXHIBITION</span>
-                    <span>EXHIBITION</span>
+                <!-- 슬라이드02 -->
+                <div class="slide" id="slide-02">
+                    <h1 style=letter-spacing:0.15em;>
+                        exhibition<br>
+                        <span class="slide-pointtext-02">exhibition</span><br>
+                        exhibition<br>
+                    </h1>
+                    <a href="#"><span>전시</span> 확인하기</a>
                 </div>
 
-                <div class="slide">
-                    <span>FAIR & EXPO</span>
-                    <span class="slide_03_point">FAIR & EXPO</span>
-                    <span>FAIR & EXPO</span>
+                <!-- 슬라이드03 -->
+                <div class="slide" id="slide-03">
+                    <h1 style=letter-spacing:0.18em;>
+                        fair&expo<br>
+                        <span class="slide-pointtext-03">fair&expo</span><br>
+                        fair&expo<br>
+                    </h1>
+                    <a href="#"><span>전시</span> 확인하기</a>
                 </div>
 
-                <div class="slide">
-                    <span>ON-LINE</span>
-                    <span class="slide_04_point">ON-LINE</span>
-                    <span>ON-LINE</span>
+                <!-- 슬라이드04 -->
+                <div class="slide" id="slide-04">
+                    <h1 style="letter-spacing:0.45em;">
+                        on-line<br>
+                        <span class="slide-pointtext-04">on-line</span><br>
+                        on-line<br>
+                    </h1>
+                    <a href="#"><span>전시</span> 확인하기</a>
                 </div>
             </div>
         </div>
@@ -50,12 +73,18 @@
             <button class="slide_btn4">4</button>
         </div>
 
-        <div class="slider_left">
+        <div class="slider_right">
+            <div class="next">
+                <div class="next_line01"></div>
+                <div class="next_line02"></div>
+                <div class="next_text">NEXT</div>
+            </div>
         </div>
     </div>
+    
 
     <script>
-
+        // 메인 슬라이드 버튼
         document.querySelector('.slide_btn1').addEventListener('click', function () {
             document.querySelector('.slider').style.transform = 'translate(0vw)';
         });
