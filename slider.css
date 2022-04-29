@@ -25,7 +25,7 @@ body{
     left: 0;
     width: 300px;
     height: 900px;
-    background-color: aqua;
+    background-color: brown;
 }
 
 .prev{
@@ -188,10 +188,10 @@ body{
 .slider_right{
     position:absolute;
     top: 0;
-    left: 1630px;
+    left: 1620px;
     width: 300px;
     height: 900px;
-    background-color: aqua;
+    background-color: brown;
 }
 
 .next{
@@ -199,13 +199,13 @@ body{
     width: 135px;
     height: 100px;
     top: 450px;
+    left: 165px;
 }
 
 .next_line01{
     position: absolute;
     width: 55px;
     height: 3px;
-    left: 155px;
     background-color: #fff;
 }
 
@@ -214,14 +214,13 @@ body{
     width: 80px;
     height: 1px;
     top: 1px;
-    left: 210px;
+    left: 55px;
     background-color: #fff;
 }
 
 .next_text{
     position: absolute;
     top: 15px;
-    left: 155px;
     width: 55px;
     color: #fff;
     text-align: center;
